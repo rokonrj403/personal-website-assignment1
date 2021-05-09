@@ -31,7 +31,7 @@ section{
     width: 100%;
 }
 .top-section{
-    background-image: url(/images/biography-bg.png);
+    background-image: url(images/biography-bg.png);
 }
 
 .git-icon{
@@ -48,7 +48,7 @@ section{
 }
 
 .about-section{
-    background-image: url(/images/footer-bg.png);
+    background-image: url(images/footer-bg.png);
 }
 
 .services{
@@ -119,7 +119,7 @@ section{
 
 .footer{
     height: 250px;
-    background-image: url(/images/Group_33094_1.png);
+    background-image: url(images/Group_33094_1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 900px 200px;
