@@ -8,15 +8,16 @@ body{
     color: orange;
 }
 .half-width{
-    width: 40%;
+    width: 39%;
     margin-left: 5%;
     padding: 2%;
     float: left;
 }
+
 section{
     height: 500px;
-    border: 2px solid red;
 }
+
 .button{
     color: white;
     text-decoration: none;
@@ -50,6 +51,53 @@ section{
     background-image: url(/images/footer-bg.png);
 }
 
+.services{
+    width: 22%;
+    margin-left: 7%;
+    padding: 1%;
+    float: left;
+    font-size: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.service-img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.service-header{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: rgb(107, 62, 66);
+    font-size: 45px;
+}
+.service-title{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.service-text{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.service-btn{
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+.service-arrow{
+    margin-left: 65%;
+    margin-top: 5px;
+    width: 5%;
+}
 .latest-work{
 
     width: 25%;
@@ -70,10 +118,14 @@ section{
 }
 
 .footer{
+    height: 250px;
     background-image: url(/images/Group_33094_1.png);
     background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: 700px 200px;
+    background-position: center;
+    background-size: 900px 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer-text{
     text-align: center;
@@ -85,5 +137,21 @@ section{
 
 .footer-btn{
     margin-top: 8%;
+    text-align: center;
+}
+.icon{
+    width: 15%;
+    float:left;
+}
+.contact-icon{
+    width: 30%;
+    margin-left: 200%;
+    margin-right: 15%;
+    padding-left: 5%;
+}
+.contact-text-para{
+    text-align: center;
+}
+.contact-text{
     text-align: center;
 }
