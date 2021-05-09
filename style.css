@@ -1,14 +1,13 @@
 body{
     width: 1200px
     font-family: 'Bebas Neue', cursive;
-    font-family: 'Roboto', sans-serif;
     font-size: 22px;
 }
 .orange-highlight{
     color: orange;
 }
 .half-width{
-    width: 38%;
+    width: 35%;
     margin-left: 5%;
     padding: 2%;
     float: left;
